@@ -47,7 +47,9 @@ h1{
 .half-width img{
     width: 80%;
 }
-
+.top{
+    margin-top: 10%;
+}
 
 .link-button{
     text-decoration: none;
@@ -80,7 +82,7 @@ p{
     margin-left: 2%;
     margin-right: 5%;
     padding: 1%;
-    box-shadow: 10px 10px 30px;
+    box-shadow: 5px 5px 40px gray;
     margin-bottom: 4%;
     height: 70%;
     float: left;
@@ -96,24 +98,22 @@ p{
 .my-recipies{
     text-align: center;
 }
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(13, 13, 27);
-    color: white;
-    text-align: center;
- }
+
 
  #shadow{
     display: flex;
-    box-shadow: 5px 5px 40px gray;
+    box-shadow: 6px 6px 40px gray;
     border-radius: 20px;
     margin: 80px;
     padding-left: 20px;
     padding-right: 20px;
 }
+#text{
+    color: #484848;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
 .insights{
     width: 33.33%;
     margin: 20px 10px;
@@ -121,3 +121,12 @@ p{
     text-align: center;
     margin-left: 25px;
 }
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    background-color: rgb(13, 13, 27);
+    color: white;
+    text-align: center;
+ }
