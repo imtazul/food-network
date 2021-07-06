@@ -1,0 +1,107 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(143, 93, 93);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(130, 186, 197);
+  }
+
+h1{
+    font-size: 50px;
+}
+.span{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 1%;
+}
+.half-width{
+    width: 50%;
+    padding-left:35%;
+    padding-bottom: 10%;
+    padding-top: 20%;
+}
+.half-width img{
+    width: 60%;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.about
+{
+    background-image: url("../images/shapes/abs.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 80%;
+
+}
+p{
+    margin-bottom: 50px;
+}
+
+.color-highlight{
+    color: brown;
+}
+.recipies-title{
+    width: 40%;    
+    border-radius: 4%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 1%;
+    box-shadow: 10px 10px 30px;
+    margin-bottom: 4%;
+    height: 70%;
+    float: left;
+}
+.recipies-title img{
+    width: 100%;
+}
+.recipies-side{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.my-recipies{
+    text-align: center;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(13, 13, 27);
+    color: white;
+    text-align: center;
+ }
